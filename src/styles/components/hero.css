@@ -3,7 +3,7 @@
 }
 
 .hero__container {
-	@apply relative max-w-[1192px] items-center justify-between z-[2] flex-row-reverse;
+	@apply relative max-w-[1192px] items-center justify-between z-[2];
 }
 
 .hero__post-preview {

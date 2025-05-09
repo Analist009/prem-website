@@ -29,34 +29,6 @@
 	font-display: swap;
 }
 
-/* Hebrew font support */
-@font-face {
-	font-family: "Assistant";
-	src: url("https://fonts.gstatic.com/s/assistant/v18/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGSf.woff2") format("woff2");
-	font-weight: 400;
-	font-style: normal;
-	font-display: swap;
-	unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-}
-
-@font-face {
-	font-family: "Assistant";
-	src: url("https://fonts.gstatic.com/s/assistant/v18/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGSf.woff2") format("woff2");
-	font-weight: 500;
-	font-style: normal;
-	font-display: swap;
-	unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-}
-
-@font-face {
-	font-family: "Assistant";
-	src: url("https://fonts.gstatic.com/s/assistant/v18/2sDPZGJYnIjSi6H75xkZZE1I0yCmYzzQtuZnEGSf.woff2") format("woff2");
-	font-weight: 600;
-	font-style: normal;
-	font-display: swap;
-	unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
-}
-
 /* Typographic scale */
 h1,
 .h1 {

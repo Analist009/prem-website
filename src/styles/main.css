@@ -1,11 +1,6 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 
-/* RTL Support */
-html {
-  direction: rtl;
-}
-
 /* Vendors */
 @import "splitting/dist/splitting.css";
 
@@ -47,7 +42,7 @@ html {
 @import "./components/eclipse.css";
 @import "./components/footer.css";
 
-@tailwind utilities;
+@import "tailwindcss/utilities";
 
 :root {
 	--base-font-size: 16px;
@@ -78,15 +73,6 @@ html {
 	--z-nav: 400;
 	--z-default: 1;
 	--z-behind: -1;
-}
-
-/* RTL Overrides */
-.rtl-flip {
-  transform: scaleX(-1);
-}
-
-.rtl-text-right {
-  text-align: right;
 }
 
 @layer base {
