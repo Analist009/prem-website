@@ -47,7 +47,7 @@ html {
 @import "./components/eclipse.css";
 @import "./components/footer.css";
 
-@import "tailwindcss/utilities";
+@tailwind utilities;
 
 :root {
 	--base-font-size: 16px;
