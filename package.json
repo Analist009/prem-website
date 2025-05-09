@@ -7,7 +7,6 @@
 	"scripts": {
 		"prepare": "npx simple-git-hooks",
 		"start": "vite --host",
-		"dev": "vite --host",
 		"build": "vite build --emptyOutDir",
 		"preview": "vite preview",
 		"lint:eslint": "eslint \"src/**/*.js\"",
@@ -34,7 +33,6 @@
 		"postcss": "^8.4.34",
 		"postcss-import": "^16.0.0",
 		"prettier": "^3.2.5",
-		"rtlcss": "^4.3.0",
 		"simple-git-hooks": "^2.9.0",
 		"tailwindcss": "^3.4.1",
 		"vite": "^5.0.12",
