@@ -1,43 +1,43 @@
 <nav class="nav js-nav">
 	<div class="l-container nav__container">
-		<a href="https://premai.io" class="nav__logo">{{> icons/logo}}</a>
+		<a href="https://premai.io" class="nav__logo rtl-flip">{{> icons/logo}}</a>
 
 		<ul class="nav__items">
 			<li class="nav__item">
-				<a href="./for-developers.html" class="nav__link js-nav-link" data-route="developers">
-					<div class="nav__link-inner">For Developers</div>
+				<a href="./for-developers.html" class="nav__link js-nav-link rtl-text-right" data-route="developers">
+					<div class="nav__link-inner">למפתחים</div>
 				</a>
 			</li>
 			<li class="nav__item">
-				<a href="./for-business.html" class="nav__link js-nav-link" data-route="business">
-					<div class="nav__link-inner">For Business</div>
+				<a href="./for-business.html" class="nav__link js-nav-link rtl-text-right" data-route="business">
+					<div class="nav__link-inner">לעסקים</div>
 				</a>
 			</li>
 			<li class="nav__item">
-				<a href="./company.html" class="nav__link js-nav-link" data-route="company">
-					<div class="nav__link-inner">Company</div>
+				<a href="./company.html" class="nav__link js-nav-link rtl-text-right" data-route="company">
+					<div class="nav__link-inner">חברה</div>
 				</a>
 			</li>
 			<li class="nav__item">
-				<a href="https://blog.premai.io/" target="_blank" rel="noopener" class="nav__link js-nav-link">
-					<div class="nav__link-inner">Blog</div>
+				<a href="https://blog.premai.io/" target="_blank" rel="noopener" class="nav__link js-nav-link rtl-text-right">
+					<div class="nav__link-inner">בלוג</div>
 				</a>
 			</li>
 			<li class="nav__item">
-				<a href="./contact.html" class="nav__link js-nav-link" data-route="contact">
-					<div class="nav__link-inner">Contact</div>
+				<a href="./contact.html" class="nav__link js-nav-link rtl-text-right" data-route="contact">
+					<div class="nav__link-inner">צור קשר</div>
 				</a>
 			</li>
 		</ul>
 
 		<div class="nav__ctas">
 			<a href="https://docs.premai.io" target="_blank" rel="noopener" class="nav__side-link">
-				<span class="nav__side-text">Docs</span>
+				<span class="nav__side-text">תיעוד</span>
 				<span class="nav__side-icon">{{> icons/external-link}}</span>
 			</a>
 			<div>
 				{{#>button tag="a" href="https://app.premai.io/accounts/signup/"
-				target="_blank" rel="noopener" theme="secondary" }} Sign up {{/button}}
+				target="_blank" rel="noopener" theme="secondary" }} הרשמה {{/button}}
 			</div>
 		</div>
 
@@ -55,30 +55,30 @@
 		<ul class="nav-mobile__links">
 			<li class="nav-mobile__item">
 				<a href="./for-developers.html" class="nav-mobile__link js-nav-mobile-link" data-route="developers">For
-					Developers</a>
+					למפתחים</a>
 			</li>
 			<li class="nav-mobile__item">
 				<a href="./for-business.html" class="nav-mobile__link js-nav-mobile-link" data-route="business">For
-					Business</a>
+					לעסקים</a>
 			</li>
 			<li class="nav-mobile__item">
-				<a href="./company.html" class="nav-mobile__link js-nav-mobile-link" data-route="company">Company</a>
+				<a href="./company.html" class="nav-mobile__link js-nav-mobile-link" data-route="company">חברה</a>
 			</li>
 			<li class="nav-mobile__item">
 				<a href="https://blog.premai.io/" target="_blank" rel="noopener"
-					class="nav-mobile__link js-nav-mobile-link">Blog</a>
+					class="nav-mobile__link js-nav-mobile-link">בלוג</a>
 			</li>
 			<li class="nav-mobile__item">
-				<a href="./contact.html" class="nav-mobile__link js-nav-mobile-link" data-route="contact">Contact</a>
+				<a href="./contact.html" class="nav-mobile__link js-nav-mobile-link" data-route="contact">צור קשר</a>
 			</li>
 		</ul>
 
 		<div class="nav-mobile__end">
 			{{#>button tag="a" href="https://docs.premai.io" target="_blank"
-			rel="noopener" outline="true" class="js-nav-mobile-cta" }} Docs
+			rel="noopener" outline="true" class="js-nav-mobile-cta" }} תיעוד
 			{{/button}} {{#>button tag="a"
 			href="https://app.premai.io/accounts/signup/" target="_blank"
-			rel="noopener" theme="secondary" class="js-nav-mobile-cta" }} Sign up
+			rel="noopener" theme="secondary" class="js-nav-mobile-cta" }} הרשמה
 			{{/button}}
 		</div>
 	</div>

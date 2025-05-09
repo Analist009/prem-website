@@ -28,7 +28,7 @@
 }
 
 .nav__items {
-	@apply hidden lg:flex justify-center items-center py-2 px-4 gap-x-3 rounded-3xl border border-white border-opacity-20 bg-gray-800;
+	@apply hidden lg:flex justify-center items-center py-2 px-4 gap-x-3 rounded-3xl border border-white border-opacity-20 bg-gray-800 flex-row-reverse;
 }
 
 .nav__link {

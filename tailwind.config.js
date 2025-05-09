@@ -3,8 +3,8 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
 	content: ["./**/src/*.{html,js}", "./**/src/components/*.{html,js}"],
 	theme: {
-		fontFamily: {
-			sans: ["Space Grotesk", ...defaultTheme.fontFamily.sans],
+		fontFamily: { 
+			sans: ["Space Grotesk", "Assistant", "Rubik", ...defaultTheme.fontFamily.sans],
 		},
 		colors: {
 			transparent: "transparent",
